@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animate</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+
+        $(document).ready(function () {
+            $("#car").click(function () {
+                var img = $("img");
+                img.animate({ left: '100px' }, "slow");
+                img.animate({ left: '150px' }, "slow");
+                img.animate({ left: '200px' }, "slow");
+                img.animate({ left: '250px' }, "slow");
+                img.animate({ left: '300px' }, "fast");
+                img.animate({ left: '350px' }, "fast");
+                img.animate({ left: '400px' }, "slow");
+                img.animate({ left: '450px' }, "slow");
+                img.animate({ left: '500px' }, "slow");
+                img.animate({ left: '550px' }, "slow");
+                img.animate({ left: '600px' }, "slow");
+                img.animate({ left: '650px' }, "slow");
+                img.animate({ left: '700px' }, "fast");
+                img.animate({ left: '750px' }, "fast");
+                img.animate({ left: '800px' }, "slow");
+                img.animate({ left: '850px' }, "slow");
+                img.animate({ top: '100px' }, "slow");
+                img.animate({ top: '150px' }, "slow");
+                img.animate({ top: '200px' }, "slow");
+                img.animate({ top: '250px' }, "slow");
+                img.animate({ top: '300px' }, "fast");
+                img.animate({ top: '350px' }, "fast");
+                img.animate({ top: '400px' }, "slow");
+                img.animate({ top: '450px' }, "slow");
+                img.animate({ right: '100px' }, "slow");
+                img.animate({ right: '150px' }, "slow");
+                img.animate({ right: '200px' }, "slow");
+                img.animate({ right: '250px' }, "slow");
+                img.animate({ right: '300px' }, "fast");
+                img.animate({ right: '350px' }, "fast");
+                img.animate({ right: '400px' }, "slow");
+                img.animate({ right: '450px' }, "slow");
+
+
+
+
+
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <img src="assests/car.avif" height="200px" width="150px" id="car" style="position: relative;background-image: url(assests/road.jpg);">
+    
+</body>
+
+</html>

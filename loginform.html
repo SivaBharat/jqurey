@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<script>$(document).ready(function() {
+  $('#form').hide();
+  $('#login').click(function() {
+    $('#form').toggle();
+  });
+});
+$(document).ready(function(){
+   $('#regform') .hide();
+   $('#register').click(function(){
+    $('#regform').toggle();
+   });
+});
+</script>
+<body>
+    
+    <button id="login">Login</button>
+<form id="form">
+  <label for="username">Username</label><br>
+  <input type="text" id="username" placeholder="enter your username"><br>
+  <label for="password">Password</label><br>
+  <input type="password" id="password" placeholder="enter your password"><br>
+  <button type="submit">Submit</button><br>
+</form><br>
+<button id="register">Register</button>
+<form id="regform">
+    <label for="username">First Name</label><br>
+  <input type="text" placeholder="enter your first name"><br>
+  <label for="username">Last Name</label><br>
+  <input type="text" placeholder="enter your last name"><br>
+  <label for="username">DOB</label><br>
+  <input type="date"  placeholder="enter your dob"><br>
+   <label for="username">Username</label><br>
+  <input type="text" placeholder="enter your username"><br>
+  <label for="password">Password</label><br>
+  <input type="password" placeholder="enter your password"><br>
+  <button type="submit">Submit</button><br>
+</form>
+
+</body>
+</html>
